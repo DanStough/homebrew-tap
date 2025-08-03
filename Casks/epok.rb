@@ -2,7 +2,7 @@
 cask "epok" do
   desc "A CLI for working with Unix Timestamps & Timezones"
   homepage "https://github.com/DanStough/epok"
-  version "0.1.2"
+  version "0.2.0"
 
   livecheck do
     skip "Auto-generated on release."
@@ -16,23 +16,23 @@ cask "epok" do
 
   on_macos do
     on_intel do
-      url "https://github.com/DanStough/epok/releases/download/v0.1.2/epok_Darwin_x86_64.tar.gz"
-      sha256 "f93d92753c8f951050278267417a1c0174ec69ea60b98370d743aa2be3ff19e0"
+      url "https://github.com/DanStough/epok/releases/download/v0.2.0/epok_Darwin_x86_64.tar.gz"
+      sha256 "9dcbda3b698cc41510c1d582ff6fc00e68a2f6c5b8442b9f4a5a4e1ae68f9cc4"
     end
     on_arm do
-      url "https://github.com/DanStough/epok/releases/download/v0.1.2/epok_Darwin_arm64.tar.gz"
-      sha256 "66e5ca6ed3101f9cc1083c663a08917c5a78d78cdc8b5039d5bb6d2da3c8645c"
+      url "https://github.com/DanStough/epok/releases/download/v0.2.0/epok_Darwin_arm64.tar.gz"
+      sha256 "93bf41f51e2ecbcb6d31371b3f0153f86cbdfab81effc0f4f923a9408c3f135a"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/DanStough/epok/releases/download/v0.1.2/epok_Linux_x86_64.tar.gz"
-      sha256 "348a2cac2e4873e76f99746b09eeb229d925f321373041f11bc8d3f9d6637e94"
+      url "https://github.com/DanStough/epok/releases/download/v0.2.0/epok_Linux_x86_64.tar.gz"
+      sha256 "cad9166037734e0e9296e333fa7d8c59b848e8711c02cc2b16cedb285327e950"
     end
     on_arm do
-      url "https://github.com/DanStough/epok/releases/download/v0.1.2/epok_Linux_arm64.tar.gz"
-      sha256 "12b4cf9b7b6a0d433f930f9c33781200de798e733d9e2eb72ef500ff36a84f97"
+      url "https://github.com/DanStough/epok/releases/download/v0.2.0/epok_Linux_arm64.tar.gz"
+      sha256 "22d21ea734dc1fa57ba269e850d5eab607077be6c499765b037e2f210e999f40"
     end
   end
 
